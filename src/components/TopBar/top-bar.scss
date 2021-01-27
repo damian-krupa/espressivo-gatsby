@@ -13,6 +13,7 @@ nav {
 @media (min-width: 990px) {
   .navbar-brand.abs {
     position: absolute;
+    z-index: -1;
     width: 100%;
     left: 0;
     text-align: center;

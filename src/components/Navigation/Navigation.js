@@ -12,19 +12,19 @@ const Navigation = () => {
     >
       <Nav className="" activeKey="/home">
         <Nav.Item>
-          <Nav.Link href="/">My</Nav.Link>
+          <Nav.Link href="#test">My</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-1">Oferta</Nav.Link>
+          <Nav.Link>Oferta</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-2">Portfolio</Nav.Link>
+          <Nav.Link>Portfolio</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-2">Blog</Nav.Link>
+          <Nav.Link>Blog</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-2">Kontakt</Nav.Link>
+          <Nav.Link>Kontakt</Nav.Link>
         </Nav.Item>
       </Nav>
     </Navbar>
