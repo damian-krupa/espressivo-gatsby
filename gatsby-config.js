@@ -36,7 +36,7 @@ module.exports = {
             },
             {
               family: "Rubik",
-              variants: ["500", "600", "700"],
+              variants: ["400"],
             },
           ],
         },
@@ -46,10 +46,10 @@ module.exports = {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /images/
-        }
-      }
-    }
+          include: /images/,
+        },
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-manifest`,
     //   options: {

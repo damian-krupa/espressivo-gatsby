@@ -5,7 +5,11 @@ import "./navigation.scss"
 
 const Navigation = () => {
   return (
-    <Navbar className="navigation justify-content-center" sticky='top' variant='dark'>
+    <Navbar
+      className="navigation justify-content-center"
+      sticky="top"
+      variant="dark"
+    >
       <Nav className="" activeKey="/home">
         <Nav.Item>
           <Nav.Link href="/">My</Nav.Link>
