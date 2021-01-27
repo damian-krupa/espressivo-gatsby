@@ -32,25 +32,25 @@ const TopBar = () => (
             <PhoneIcon />
             <span className="nav-link-text">+48 578 983 972</span>
           </Nav.Link>
-          <Nav.Link href="email:holi@espressivo.pl">
+          <Nav.Link href="mailto:holi@espressivo.pl">
             <EmailIcon />
             <span className="nav-link-text">holi@espressivo.pl</span>
           </Nav.Link>
         </Nav>
         <Nav>
-          <Nav.Link href="https://www.facebook.com/espressivo.marketing">
+          <Nav.Link href="https://www.facebook.com/espressivo.marketing" target="_blank">
             <FacebookIcon />
           </Nav.Link>
-          <Nav.Link href="https://www.instagram.com/espressivo.marketing">
+          <Nav.Link href="https://www.instagram.com/espressivo.marketing" target="_blank">
             <InstagramIcon />
           </Nav.Link>
-          <Nav.Link href="https://www.linkedin.com/company/espressivomarketing">
+          <Nav.Link href="https://www.linkedin.com/company/espressivomarketing" target="_blank">
             <LinkedInIcon />
           </Nav.Link>
-          <Nav.Link href="https://espressivo-poems.tumblr.com">
+          <Nav.Link href="https://espressivo-poems.tumblr.com" target="_blank">
             <TumblrIcon />
           </Nav.Link>
-          <Nav.Link href="https://vm.tiktok.com/ZMJEbFFfH/">
+          <Nav.Link href="https://vm.tiktok.com/ZMJEbFFfH/" target="_blank">
             <TikTokIcon />
           </Nav.Link>
           <Nav.Link href="#search">
