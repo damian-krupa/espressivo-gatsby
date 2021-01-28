@@ -1,9 +1,10 @@
 .top-bar {
   min-height: 90px;
-}
-
-nav {
   background-color: #000;
+
+  a:hover {
+      filter: brightness(115%);
+  }
 }
 
 .nav-link-text {
