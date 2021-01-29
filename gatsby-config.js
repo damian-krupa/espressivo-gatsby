@@ -54,9 +54,10 @@ module.exports = {
       resolve: `gatsby-plugin-scroll-indicator`,
       options: {
         // Configure color of the scroll indicator
-        color: "linear-gradient(90deg, #EBCC70 1.88%, #EEE9D8 27.42%, #EBCD73 52.97%, #EEE9D8 76.95%, #EBCD73 100.03%)",
+        color:
+          "linear-gradient(90deg, #EBCC70 1.88%, #EEE9D8 27.42%, #EBCD73 52.97%, #EEE9D8 76.95%, #EBCD73 100.03%)",
         // Height of the scroll indicator
-        height: "3px",
+        height: "2px",
         // Configure paths where the scroll indicator will appear
         // paths: ["/", "/blog/**"],
         // Configure the z-index of the indicator element

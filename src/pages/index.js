@@ -1,11 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
+import CompanyIntroduction from "../components/IntroductionSection/CompanyIntroduction"
 
 const IndexPage = () => (
   <>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <CompanyIntroduction />
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eum
       eveniet exercitationem facere ipsum quisquam quo tempore! Consequuntur eos
@@ -42,7 +41,7 @@ const IndexPage = () => (
       ipsa laudantium minus, nobis perspiciatis provident quaerat quam quos
       recusandae suscipit unde vel voluptate voluptatibus?
     </p>
-    <p>
+    <p id="test">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eum
       eveniet exercitationem facere ipsum quisquam quo tempore! Consequuntur eos
       ex maiores obcaecati odio pariatur recusandae reiciendis reprehenderit

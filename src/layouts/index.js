@@ -6,6 +6,10 @@ import Navigation from "../components/Navigation/Navigation"
 import "./layout.scss"
 
 const MainLayout = ({ children }) => {
+  if (typeof window !== "undefined") {
+    require("smooth-scroll")('a[href*="#"]')
+  }
+
   return (
     <div className="layout">
       <TopBar />

@@ -4,6 +4,10 @@ import Nav from "react-bootstrap/Nav"
 import "./navigation.scss"
 
 const Navigation = () => {
+  const handleAboutUsClick = () => {
+    window[`scrollTo`]({ top: 0, behavior: `smooth` })
+  }
+
   return (
     <Navbar
       className="navigation-bar justify-content-center"
@@ -12,13 +16,13 @@ const Navigation = () => {
     >
       <Nav className="navigation-list" activeKey="/home">
         <Nav.Item>
-          <Nav.Link href="#test">My</Nav.Link>
+          <Nav.Link onClick={handleAboutUsClick}>My</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link>Oferta</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link>Portfolio</Nav.Link>
+          <Nav.Link href="/#test">Portfolio</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link>Blog</Nav.Link>

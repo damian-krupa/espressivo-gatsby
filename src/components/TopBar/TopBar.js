@@ -38,13 +38,22 @@ const TopBar = () => (
           </Nav.Link>
         </Nav>
         <Nav>
-          <Nav.Link href="https://www.facebook.com/espressivo.marketing" target="_blank">
+          <Nav.Link
+            href="https://www.facebook.com/espressivo.marketing"
+            target="_blank"
+          >
             <FacebookIcon />
           </Nav.Link>
-          <Nav.Link href="https://www.instagram.com/espressivo.marketing" target="_blank">
+          <Nav.Link
+            href="https://www.instagram.com/espressivo.marketing"
+            target="_blank"
+          >
             <InstagramIcon />
           </Nav.Link>
-          <Nav.Link href="https://www.linkedin.com/company/espressivomarketing" target="_blank">
+          <Nav.Link
+            href="https://www.linkedin.com/company/espressivomarketing"
+            target="_blank"
+          >
             <LinkedInIcon />
           </Nav.Link>
           <Nav.Link href="https://espressivo-poems.tumblr.com" target="_blank">
