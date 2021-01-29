@@ -1,7 +1,8 @@
 import React from "react"
-import BigLogo from "../../assets/images/big_logo.svg"
+import BigLogo from "assets/images/big_logo.svg"
+import { Link } from "gatsby"
 
-const CompanyIntroduction = () => {
+const AboutUsSection = () => {
   return (
     <section className="row">
       <BigLogo className="col-md-4 p-4" />
@@ -17,11 +18,14 @@ const CompanyIntroduction = () => {
           odpowiedzialność za nasze działania. Jesteśmy zwolennikami budowania
           relacji i autentycznej postawy marki, co wpisuje się
           perspektywistyczną strategię brandingową. Zapraszamy do HOLISTYCZNEJ
-          WSPÓŁPRACY.
+          WSPÓŁPRACY.{" "}
+          <Link className="font-italic ml-2" to={"/about-us"}>
+            Czytaj więcej...
+          </Link>
         </p>
       </article>
     </section>
   )
 }
 
-export default CompanyIntroduction
+export default AboutUsSection

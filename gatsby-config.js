@@ -17,14 +17,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-layout`,
-    // {
-    //   resolve: `gatsby-alias-imports`,
-    //   options: {
-    //     aliases: {
-    //       assets: `src/assets`,
-    //     }
-    //   }
-    // },
     {
       resolve: `gatsby-plugin-webfonts`,
       options: {
@@ -32,7 +24,8 @@ module.exports = {
           google: [
             {
               family: "Source Sans Pro",
-              variants: ["300", "400", "500", "600", "700"],
+              variants: ["300", "400", "500", "600", "700", "900"],
+              subsets: ["latin-ext"],
             },
             {
               family: "Rubik",

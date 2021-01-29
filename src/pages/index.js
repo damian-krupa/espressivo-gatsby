@@ -1,10 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
-import CompanyIntroduction from "../components/IntroductionSection/CompanyIntroduction"
+import CompanyIntroduction from "components/AboutUsSection/AboutUsSection"
+import TeamSection from "components/TeamSection/TeamSection"
 
 const IndexPage = () => (
   <>
     <CompanyIntroduction />
+    <TeamSection />
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda eum
       eveniet exercitationem facere ipsum quisquam quo tempore! Consequuntur eos

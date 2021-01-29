@@ -1,0 +1,16 @@
+@import "assets/styles/variables";
+
+.title-badge {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 900;
+  width: 11rem;
+  height: 3rem;
+  color: black;
+  background: linear-gradient(90deg, $default-gradient);
+}

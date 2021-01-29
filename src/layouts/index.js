@@ -1,9 +1,8 @@
 import React from "react"
-import TopBar from "../components/TopBar/TopBar"
-import "../assets/styles/globalStyles.scss"
+import TopBar from "components/TopBar/TopBar"
+import "assets/styles/global-styles.scss"
 import { Container } from "react-bootstrap"
-import Navigation from "../components/Navigation/Navigation"
-import "./layout.scss"
+import Navigation from "components/Navigation/Navigation"
 
 const MainLayout = ({ children }) => {
   if (typeof window !== "undefined") {
