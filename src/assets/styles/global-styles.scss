@@ -47,15 +47,21 @@ ul {
   margin: 0;
 }
 
-h3 {
-  margin-top: -0.5rem;
-  font-size: 1.5rem;
-  font-weight: 300;
-}
-
-h1, h2 {
+h1, h2, h4, h5 {
   font-weight: 300;
   background: -webkit-linear-gradient(45deg, $default-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+h6 {
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin-top: -0.5rem;
+}
+
+h3 {
+  margin-top: -0.5rem;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
