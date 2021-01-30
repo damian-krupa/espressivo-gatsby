@@ -5,10 +5,18 @@ import Img from "gatsby-image"
 
 const query = graphql`
   {
-    file(name: { eq: "madzia" }) {
-      childImageSharp {
-        fluid(maxWidth: 300, maxHeight: 300, quality: 100) {
-          ...GatsbyImageSharpFluid_noBase64
+    allPhotosJson {
+      edges {
+        node {
+          src {
+            id
+            childImageSharp {
+              fluid(maxWidth: 300, maxHeight: 300, quality: 100) {
+                ...GatsbyImageSharpFluid_noBase64
+              }
+            }
+          }
+          name
         }
       }
     }
@@ -17,15 +25,18 @@ const query = graphql`
 
 const TeamSection = () => {
   const data = useStaticQuery(query)
+  console.log(data)
 
   return (
     <>
       <div className="row justify-content-center m-5">
         <TitleBadge value="zespół" />
       </div>
-      <section className="row mb-5">
+      <section className="row">
         <div className="col-4 p-4">
-          <Img fluid={data.file.childImageSharp.fluid} />
+          <Img
+            fluid={data.allPhotosJson.edges[0].node.src.childImageSharp.fluid}
+          />
         </div>
         <article className="col-8">
           <h1 id="about-us">Magdalena Gospodarek</h1>
@@ -44,6 +55,28 @@ const TeamSection = () => {
             reklamowe Facebook Ads.
           </p>
         </article>
+      </section>
+      <section className="row justify-content-end mb-5">
+        <div className="col-2">
+          <Img
+            fluid={data.allPhotosJson.edges[1].node.src.childImageSharp.fluid}
+          />
+        </div>
+        <div className="col-2">
+          <Img
+            fluid={data.allPhotosJson.edges[2].node.src.childImageSharp.fluid}
+          />
+        </div>
+        <div className="col-2">
+          <Img
+            fluid={data.allPhotosJson.edges[3].node.src.childImageSharp.fluid}
+          />
+        </div>
+        <div className="col-2">
+          <Img
+            fluid={data.allPhotosJson.edges[4].node.src.childImageSharp.fluid}
+          />
+        </div>
       </section>
     </>
   )

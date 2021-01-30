@@ -1,0 +1,22 @@
+[
+  {
+    "name": "madzia",
+    "src": "../assets/images/madzia.png"
+  },
+  {
+    "name": "adam",
+    "src": "../assets/images/adam.png"
+  },
+  {
+    "name": "iza",
+    "src": "../assets/images/iza.png"
+  },
+  {
+    "name": "hubert",
+    "src": "../assets/images/hubert.png"
+  },
+  {
+    "name": "paulina",
+    "src": "../assets/images/paulina.png"
+  }
+]
