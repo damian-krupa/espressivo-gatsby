@@ -5,7 +5,7 @@ import { Link } from "gatsby"
 const AboutUsSection = () => {
   return (
     <section className="row pt-4">
-      <BigLogo className="col-md-4 p-4" />
+      <BigLogo className="col-md-4 p-2 mb-4" />
       <article className="col-md-8">
         <h1 id="about-us">Holistyczny Marketing</h1>
         <p>

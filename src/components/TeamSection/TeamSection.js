@@ -29,6 +29,7 @@ const TeamSection = () => {
         </div>
         <article className="col-8">
           <h1 id="about-us">Magdalena Gospodarek</h1>
+          <h3>CEO & Founder</h3>
           <p>
             Jako założycielka agencji marketingowej w Częstochowie, która
             działaniami obejmuje nie tylko Polskę, a także zagranicę, spełniam

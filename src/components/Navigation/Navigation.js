@@ -12,7 +12,7 @@ const Navigation = () => {
     >
       <Nav className="navigation-list" activeKey="/home">
         <Nav.Item>
-          <Nav.Link href="#top">My</Nav.Link>
+          <Nav.Link href="/#top">My</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link>Oferta</Nav.Link>
