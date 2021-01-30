@@ -1,5 +1,5 @@
 import React from "react"
-import BigLogo from "assets/images/big_logo.svg"
+import BigLogo from "assets/vector_images/big_logo.svg"
 import "./about-us.scss"
 
 const AboutUs = () => {

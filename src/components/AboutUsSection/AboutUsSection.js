@@ -1,10 +1,10 @@
 import React from "react"
-import BigLogo from "assets/images/big_logo.svg"
+import BigLogo from "assets/vector_images/big_logo.svg"
 import { Link } from "gatsby"
 
 const AboutUsSection = () => {
   return (
-    <section className="row">
+    <section className="row pt-4">
       <BigLogo className="col-md-4 p-4" />
       <article className="col-md-8">
         <h1 id="about-us">Holistyczny Marketing</h1>
@@ -18,7 +18,7 @@ const AboutUsSection = () => {
           odpowiedzialność za nasze działania. Jesteśmy zwolennikami budowania
           relacji i autentycznej postawy marki, co wpisuje się
           perspektywistyczną strategię brandingową. Zapraszamy do HOLISTYCZNEJ
-          WSPÓŁPRACY.{" "}
+          WSPÓŁPRACY.
           <Link className="font-italic ml-2" to={"/about-us"}>
             Czytaj więcej...
           </Link>

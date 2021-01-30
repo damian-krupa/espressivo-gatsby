@@ -24,13 +24,13 @@ module.exports = {
           google: [
             {
               family: "Source Sans Pro",
-              variants: ["300", "400", "500", "600", "700", "900"],
+              variants: ["300", "400", "600", "700", "900"],
               subsets: ["latin-ext"],
             },
-            {
-              family: "Rubik",
-              variants: ["400"],
-            },
+            // {
+            //   family: "Rubik",
+            //   variants: ["400"],
+            // },
           ],
         },
       },
