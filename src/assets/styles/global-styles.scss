@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import "./variables";
+@import "./mixins";
 
 html {
   box-sizing: border-box;
@@ -49,9 +50,7 @@ ul {
 
 h1, h2, h4, h5 {
   font-weight: 300;
-  background: -webkit-linear-gradient(45deg, $default-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  @include goldBackground
 }
 
 h6 {

@@ -1,0 +1,34 @@
+@import "assets/styles/mixins";
+
+.footer {
+  background-color: #000;
+  width: 100vw;
+}
+
+.contact-us {
+  p {
+    margin-bottom: 0
+  }
+
+  strong {
+    font-weight: 700;
+    @include goldBackground
+  }
+}
+
+.working-hours {
+  p {
+    margin-bottom: 0;
+  }
+  h5 {
+    @include clearGoldBackground
+  }
+}
+
+.small-print {
+  font-weight: 300;
+}
+
+.gold-text {
+  @include goldBackground
+}
