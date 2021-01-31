@@ -2,7 +2,7 @@ import React from "react"
 import BigLogo from "assets/vector_images/big_logo.svg"
 import { Link } from "gatsby"
 
-const AboutUsSection = () => {
+const AboutUs = () => {
   return (
     <section className="row pt-4">
       <BigLogo className="col-md-4 p-2 mb-4" />
@@ -28,4 +28,4 @@ const AboutUsSection = () => {
   )
 }
 
-export default AboutUsSection
+export default AboutUs

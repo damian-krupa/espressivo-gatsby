@@ -6,11 +6,11 @@ import "./navigation.scss"
 const Navigation = () => {
   return (
     <Navbar
-      className="navigation-bar justify-content-center"
+      className="navigation-bar shadow py-0 justify-content-center"
       sticky="top"
       variant="dark"
     >
-      <Nav className="navigation-list" activeKey="/home">
+      <Nav className="navigation-list">
         <Nav.Item>
           <Nav.Link href="/#top">My</Nav.Link>
         </Nav.Item>

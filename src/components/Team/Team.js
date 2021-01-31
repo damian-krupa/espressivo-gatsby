@@ -23,9 +23,8 @@ const query = graphql`
   }
 `
 
-const TeamSection = () => {
+const Team = () => {
   const data = useStaticQuery(query)
-  console.log(data)
 
   return (
     <>
@@ -90,4 +89,4 @@ const TeamSection = () => {
   )
 }
 
-export default TeamSection
+export default Team
