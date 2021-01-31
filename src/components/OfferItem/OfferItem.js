@@ -1,14 +1,13 @@
 import React from "react"
 import "./offer-item.scss"
-import consulting from "assets/vector_images/consulting.svg"
 
-const OfferItem = () => {
+const OfferItem = ({ imageSrc, headerText }) => {
   return (
     <div className="offer-item col-6 col-md-4 col-lg-3">
       <div className="gradient-box">
         <div className="offer-icon p-3 text-center">
-          <img src={consulting} alt="konsultacje" />
-          <h4>Konsultacje</h4>
+          <img width='100px' height='100px' src={imageSrc} alt={headerText} />
+          <h5>{headerText}</h5>
         </div>
       </div>
     </div>
