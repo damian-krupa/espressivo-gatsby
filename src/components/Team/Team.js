@@ -63,21 +63,21 @@ const Team = () => {
           <h5>Adam Rus</h5>
           <h6>Projektant graficzny</h6>
         </div>
-        <div className="col-3 col-lg-2 text-center" >
+        <div className="col-3 col-lg-2 text-center">
           <Img
             fluid={data.allPhotosJson.edges[2].node.src.childImageSharp.fluid}
           />
           <h5>Izabela Antczak</h5>
           <h6>Tłumacz j. niemieckiego</h6>
         </div>
-        <div className="col-3 col-lg-2 text-center" >
+        <div className="col-3 col-lg-2 text-center">
           <Img
             fluid={data.allPhotosJson.edges[3].node.src.childImageSharp.fluid}
           />
           <h5>Hubert Krakowiak</h5>
           <h6>Operator kamery</h6>
         </div>
-        <div className="col-3 col-lg-2 text-center" >
+        <div className="col-3 col-lg-2 text-center">
           <Img
             fluid={data.allPhotosJson.edges[4].node.src.childImageSharp.fluid}
           />

@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <section className="footer">
       <Container>
-        <footer id='kontakt' className="row justify-content-around">
+        <footer id="kontakt" className="row justify-content-around">
           <div className="contact-us col-6 col-md-5 col-lg-4 mt-5">
             <p>Skontaktuj się z nami, jeśli wierzysz, że</p>
             <p className="gold-text-decoration">
@@ -25,7 +25,7 @@ const Footer = () => {
             </a>
           </div>
           <div className="working-hours col-6 col-md-5 col-lg-4 mt-5 text-center">
-            <h5 className='mb-3'>
+            <h5 className="mb-3">
               <b>GODZINY OTWARCIA</b>
             </h5>
             <div>

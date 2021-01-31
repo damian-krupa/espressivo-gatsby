@@ -16,7 +16,7 @@ import SearchIcon from "assets/vector_images/search.svg"
 const TopBar = () => (
   <Navbar
     className="top-bar"
-    id='top-bar'
+    id="top-bar"
     collapseOnSelect
     expand="lg"
     sticky="top"

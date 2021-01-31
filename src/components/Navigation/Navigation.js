@@ -1,6 +1,7 @@
 import React from "react"
 import Navbar from "react-bootstrap/Navbar"
 import Nav from "react-bootstrap/Nav"
+import { Link } from "gatsby"
 import "./navigation.scss"
 
 const Navigation = () => {
@@ -12,19 +13,19 @@ const Navigation = () => {
     >
       <Nav className="navigation-list">
         <Nav.Item>
-          <Nav.Link href="/#top">My</Nav.Link>
+          <Link to="/#top">My</Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/#oferta">Oferta</Nav.Link>
+          <Link to="/#oferta">Oferta</Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/#portfolio">Portfolio</Nav.Link>
+          <Link to="/#portfolio">Portfolio</Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/#blog">Blog</Nav.Link>
+          <Link to="/#blog">Blog</Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="#kontakt">Kontakt</Nav.Link>
+          <Link to="#kontakt">Kontakt</Link>
         </Nav.Item>
       </Nav>
     </Navbar>

@@ -13,3 +13,11 @@
   border-image-source: linear-gradient(90deg, $default-gradient);
   border-image-slice: 1;
 }
+
+.nav-item {
+  margin: 0.25rem;
+
+  a {
+    text-decoration: none;
+  }
+}
