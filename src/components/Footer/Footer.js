@@ -16,11 +16,11 @@ const Footer = () => {
             </p>
             <p>rozwinie Twój biznes.</p>
             <a className="d-block my-2" href="tel:578-983-972">
-              <PhoneIcon />
+              <img src={PhoneIcon} alt="telefon" />
               <span className="ml-1">+48 578 983 972</span>
             </a>
             <a className="d-block mb-4" href="mailto:holi@espressivo.pl">
-              <EmailIcon />
+              <img src={EmailIcon} alt="email" />
               <span className="ml-1">holi@espressivo.pl</span>
             </a>
           </div>

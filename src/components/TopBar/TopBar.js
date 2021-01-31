@@ -24,17 +24,17 @@ const TopBar = () => (
   >
     <Container>
       <Navbar.Brand className="navbar-brand abs">
-        <EspressivoLogo />
+        <img src={EspressivoLogo} alt="logo" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="tel:578-983-972">
-            <PhoneIcon />
+            <img src={PhoneIcon} alt="telefon" />
             <span className="nav-link-text">+48 578 983 972</span>
           </Nav.Link>
           <Nav.Link href="mailto:holi@espressivo.pl">
-            <EmailIcon />
+            <img src={EmailIcon} alt="email" />
             <span className="nav-link-text">holi@espressivo.pl</span>
           </Nav.Link>
         </Nav>
@@ -43,28 +43,28 @@ const TopBar = () => (
             href="https://www.facebook.com/espressivo.marketing"
             target="_blank"
           >
-            <FacebookIcon />
+            <img src={FacebookIcon} alt="facebook" />
           </Nav.Link>
           <Nav.Link
             href="https://www.instagram.com/espressivo.marketing"
             target="_blank"
           >
-            <InstagramIcon />
+            <img src={InstagramIcon} alt="instagram" />
           </Nav.Link>
           <Nav.Link
             href="https://www.linkedin.com/company/espressivomarketing"
             target="_blank"
           >
-            <LinkedInIcon />
+            <img src={LinkedInIcon} alt="linkedIn" />
           </Nav.Link>
           <Nav.Link href="https://espressivo-poems.tumblr.com" target="_blank">
-            <TumblrIcon />
+            <img src={TumblrIcon} alt="tumblr" />
           </Nav.Link>
           <Nav.Link href="https://vm.tiktok.com/ZMJEbFFfH/" target="_blank">
-            <TikTokIcon />
+            <img src={TikTokIcon} alt="tiktok" />
           </Nav.Link>
           <Nav.Link href="#search">
-            <SearchIcon />
+            <img src={SearchIcon} alt="search" />
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

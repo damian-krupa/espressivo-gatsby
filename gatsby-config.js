@@ -37,14 +37,6 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-react-svg",
-      options: {
-        rule: {
-          include: /vector_images/,
-        },
-      },
-    },
-    {
       resolve: `gatsby-plugin-scroll-indicator`,
       options: {
         // Configure color of the scroll indicator
@@ -77,6 +69,7 @@ module.exports = {
         path: `./src/data/`,
       },
     },
+    "gatsby-plugin-optimize-svgs",
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

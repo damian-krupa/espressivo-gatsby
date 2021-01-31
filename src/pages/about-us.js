@@ -7,7 +7,7 @@ const AboutUs = () => {
     <>
       <article className="about-us-page">
         <div className="row justify-content-center p-5">
-          <BigLogo />
+          <img src={BigLogo} alt="logo" />
         </div>
         <h1 className="row justify-content-center p-3">
           HOLISTYCZNY MARKETING
