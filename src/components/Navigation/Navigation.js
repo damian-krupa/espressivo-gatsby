@@ -15,16 +15,16 @@ const Navigation = () => {
           <Nav.Link href="/#top">My</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link>Oferta</Nav.Link>
+          <Nav.Link href="/#oferta">Oferta</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/#test">Portfolio</Nav.Link>
+          <Nav.Link href="/#portfolio">Portfolio</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link>Blog</Nav.Link>
+          <Nav.Link href="/#blog">Blog</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link>Kontakt</Nav.Link>
+          <Nav.Link href="/#kontakt">Kontakt</Nav.Link>
         </Nav.Item>
       </Nav>
     </Navbar>
