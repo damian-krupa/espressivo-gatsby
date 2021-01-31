@@ -36,6 +36,9 @@ a {
   &:hover {
     color: $navbar-dark-hover-color;
   }
+  svg:hover {
+    filter: brightness(115%);
+  }
 }
 
 button {
