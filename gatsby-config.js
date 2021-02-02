@@ -24,7 +24,7 @@ module.exports = {
         fonts: {
           google: [
             {
-              family: "Source Sans Pro",
+              family: "Quicksand",
               variants: ["300", "400", "600", "700", "900"],
               subsets: ["latin-ext"],
             },
