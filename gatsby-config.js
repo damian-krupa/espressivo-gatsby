@@ -25,7 +25,7 @@ module.exports = {
           google: [
             {
               family: "Quicksand",
-              variants: ["300", "400", "600", "700", "900"],
+              variants: ["300", "400", "500", "600", "700"],
               subsets: ["latin-ext"],
             },
             // {
