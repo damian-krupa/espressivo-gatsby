@@ -29,11 +29,17 @@ const CompanyOffer = () => {
         <OfferItem imageSrc={Star} headerText="Influencer Marketing" />
         <OfferItem imageSrc={Communication} headerText="PR komunikacja" />
         <OfferItem imageSrc={Events} headerText="Organizacja Wydarzeń" />
-        <OfferItem imageSrc={Copywriting} headerText="Copywriting SEO redakcja i korekta" />
+        <OfferItem
+          imageSrc={Copywriting}
+          headerText="Copywriting SEO redakcja i korekta"
+        />
         <OfferItem imageSrc={Photoshoots} headerText="Sesje zdjęciowe" />
         <OfferItem imageSrc={Videomaking} headerText="Realizacje wideo" />
         <OfferItem imageSrc={GoogleAds} headerText="Seo, Google Ads" />
-        <OfferItem imageSrc={GoogleBusinessCard} headerText="Wizytówka Google" />
+        <OfferItem
+          imageSrc={GoogleBusinessCard}
+          headerText="Wizytówka Google"
+        />
       </section>
     </>
   )

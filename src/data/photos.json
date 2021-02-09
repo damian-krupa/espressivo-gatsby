@@ -1,22 +1,32 @@
 [
   {
-    "name": "madzia",
+    "name": "Magdalena Gospodarek",
+    "jobDescription": "CEO & Founder",
+    "longDescription": "Jako założycielka agencji marketingowej w Częstochowie, która działaniami obejmuje nie tylko Polskę, a także zagranicę, spełniam się jako dyrektor kreatywny, marketingowiec, PR-owiec, menedżer odpowiadający przed klientami oraz specjalista mediów społecznościowych. Jak każdy przedsiębiorca występuje jako jedna osoba w paru rolach, ale kocham to! Moja praca jest z ludźmi i dla ludzi. W naszej agencji marketingowej mnóstwo się dzieje, każdego dnia pracy analizuję różne scenariusze, tworzę strategię, prowadzę wnikliwe rozmowy z klientami, nadzoruję każdy projekt i jego efekt końcowy, tworzę komunikację w social media i obsługuję kampanie reklamowe Facebook Ads.  ",
     "src": "../assets/images/madzia.png"
   },
   {
-    "name": "adam",
+    "name": "Adam Rus",
+    "jobDescription": "Projektant Graficzny",
+    "longDescription": "Grafika to moja pasja i praca. Od trzech lat zajmuję się nią zawodowo. Mam za sobą kilka kursów i szkoleń, a każdy projekt zaliczam do nowo zdobytych doświadczeń. Staram się być na bieżąco, jeśli chodzi o aktualne trendy, mimo to uwielbiam tworzyć we własnym stylu ale i również być elastyczny według potrzeb klienta. Lubię nowe wyzwania, często te wymagające. Estetykę i dokładność stawiam na pierwszym miejscu. Nie lubie bezczynności, prawie codziennie jestem głodny nowych wrażeń i chętnie podejmuje się każdej aktywności. Do każdego projektu podchodzę z pełnym zaangażowaniem i rzetelnością. Zaufanie to kolejna rzecz, którą oferuje moja osoba.",
     "src": "../assets/images/adam.png"
   },
   {
-    "name": "iza",
+    "name": "Izabela Antczak",
+    "jobDescription": "Tłumacz j. niemieckiego",
+    "longDescription": "Ukończyłam studia magisterskie na kierunku filologia germańska o specjalizacji tłumaczeniowej. Od 4 lat tłumaczę teksty polsko-niemieckie, współpracując z polskimi i niemieckimi agencjami, a także z klientami indywidualnymi. O wyborze tego zawodu zadecydowałam już w gimnazjum, jednak co ciekawe, początkowo myślałam o zawodzie tłumacza języka angielskiego. W mojej pracy najbardziej lubię to, że nie grozi mi rutyna. Codziennie spotykam się z inną tematyką tekstów, przy okazji zgłębiając wiedzę z najróżniejszych dziedzin.",
     "src": "../assets/images/iza.png"
   },
   {
-    "name": "hubert",
+    "name": "Hubert Krakowiak",
+    "jobDescription": "Operator kamery",
+    "longDescription": "Jestem operatorem kamery oraz montażystą - młodym, ambitnym i z wieloma ciekawymi pomysłami. Aktualnie studiuję Realizację Obrazu Filmowego i Telewizyjnego w WSSIP w Łodzi. Z chęcią pomogę w stworzeniu idealnego i przystosowanego dla Twoich potrzeb filmu promocyjnego, teledysku, wywiadu, reklamy. Nie ograniczam się tylko do wyżej wymienionych, podejmę się również pracy nad filmem fabularnym oraz innymi, różnorodnymi projektami. W swoich pracach lubię wykazać się klasycznym podejściem do tematu, ale również nie boję się eksperymentować.",
     "src": "../assets/images/hubert.png"
   },
   {
-    "name": "paulina",
+    "name": "Paulina Mania",
+    "jobDescription": "Fotograf",
+    "longDescription": "Odkąd tylko sięgam pamięcią fotografia była bliska memu sercu - od 4 lat zawodowo fotografuję, wciąż podnosząc swoje kwalifikacje poprzez uczestniczenie w różnego rodzaju kursach i szkoleniach. Początkowo ukończyłam studia wyższe w dziedzinie fizjoterapii, natomiast wkrótce będę należeć do grona absolwentów Wrocławskiej Szkoły Fotografii AFA na specjalizacji Fotografia i Film. Posiadam wieloletnie doświadczenie w pracy z klientem, często wychodząc naprzeciw oczekiwaniom. Najswobodniej czuję się w zakresie fotografii portretowej, która pozostawia duże pole do popisu, jednak nie ograniczam się jedynie do tego rodzaju ujęć.",
     "src": "../assets/images/paulina.png"
   }
 ]
