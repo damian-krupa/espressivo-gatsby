@@ -44,7 +44,7 @@ const Team = () => {
       />
       <section className="row justify-content-end mb-5">
         {data.allPhotosJson.edges.map((edge, index) => (
-          <TeamMember
+          !(index === teamMemberIndex) && <TeamMember
             name={edge.node.name}
             jobDescription={edge.node.jobDescription}
             photo={edge.node.src.childImageSharp.fluid}
