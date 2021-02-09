@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
           </div>
         </footer>
-        <small className="row justify-content-center small-print mb-2">
+        <small className="row justify-content-center small-print pb-2">
           Designed by us with a holistic
           <span className="gold-text">&nbsp;joy</span>
         </small>
