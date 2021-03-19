@@ -17,7 +17,7 @@ const Footer = () => {
             <p>rozwinie Twój biznes.</p>
             <a className="d-block my-2" href="tel:578-983-972">
               <img src={PhoneIcon} alt="telefon" />
-              <span className="ml-1">+48 578 983 972</span>
+              <span className="ml-1 text-nowrap">+48 578 983 972</span>
             </a>
             <a className="d-block mb-4" href="mailto:holi@espressivo.pl">
               <img src={EmailIcon} alt="email" />
