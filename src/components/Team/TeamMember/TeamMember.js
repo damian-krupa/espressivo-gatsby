@@ -1,5 +1,5 @@
 import React from "react"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image";
 
 const TeamMember = ({ photo, name, jobDescription, onClick }) => {
   return (
@@ -7,11 +7,11 @@ const TeamMember = ({ photo, name, jobDescription, onClick }) => {
       className="col-3 col-lg-2 text-center"
       onClick={onClick}
     >
-      <Img fluid={photo} />
+      <GatsbyImage image={photo} />
       <h5>{name}</h5>
       <h6>{jobDescription}</h6>
     </div>
-  )
+  );
 }
 
 export default TeamMember
