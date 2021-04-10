@@ -13,6 +13,7 @@ html {
   @media screen and (min-width: 1200px) {
     font-size: 20px;
   }
+  scroll-behavior: smooth;
 }
 
 *,
@@ -36,6 +37,7 @@ a {
   &:hover {
     color: $navbar-dark-hover-color;
   }
+
   svg:hover {
     filter: brightness(115%);
   }

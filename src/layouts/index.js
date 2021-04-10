@@ -6,9 +6,6 @@ import Navigation from "components/Navigation/Navigation"
 import Footer from "../components/Footer/Footer"
 
 const MainLayout = ({ children }) => {
-  if (typeof window !== "undefined") {
-    require("smooth-scroll")('a[href*="#"]')
-  }
 
   return (
     <div className="layout">
