@@ -9,6 +9,7 @@ const MainLayout = ({ children }) => {
 
   return (
     <div className="layout">
+      <a id="top"/>
       <TopBar />
       <Navigation />
       <Container>{children}</Container>
