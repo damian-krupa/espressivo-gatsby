@@ -10,7 +10,12 @@ const Portfolio = () => {
       <div className="row justify-content-center">
         <h1>Zaufali nam</h1>
       </div>
-      <section className="row mb-5 mx-0 mx-lg-5 text-center">
+      <section
+        className="row mb-5 mx-0 mx-lg-5 text-center"
+        data-sal="slide-up"
+        data-sal-delay="250"
+        data-sal-duration="500"
+      >
         <p>
           Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w
           przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez
