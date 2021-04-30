@@ -13,7 +13,7 @@ const Portfolio = () => {
       <section
         className="row mb-5 mx-0 mx-lg-5 text-center"
         data-sal="slide-up"
-        data-sal-delay="250"
+        data-sal-delay="150"
         data-sal-duration="500"
       >
         <p>
