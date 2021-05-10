@@ -6,10 +6,9 @@ import Navigation from "components/Navigation/Navigation"
 import Footer from "../components/Footer/Footer"
 
 const MainLayout = ({ children }) => {
-
   return (
     <div className="layout">
-      <a id="top"/>
+      <div id="top"/>
       <TopBar />
       <Navigation />
       <Container>{children}</Container>
