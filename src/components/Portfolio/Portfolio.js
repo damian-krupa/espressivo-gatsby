@@ -1,7 +1,28 @@
 import React from "react"
 import TitleBadge from "../TitleBadge/TitleBadge"
+import { Container } from "react-bootstrap"
+import OrtoPlusImgSrc from "assets/vector_images/orto-puls.svg"
+import OxygenImgSrc from "assets/vector_images/oxygen.svg"
+import FullCallImgSrc from "assets/vector_images/fullcall.svg"
+import Carousel from "react-multi-carousel"
+import "react-multi-carousel/lib/styles.css"
+import  "./portfolio.scss"
 
 const Portfolio = () => {
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 4000, min: 992 },
+      items: 3
+    },
+    tablet: {
+      breakpoint: { max: 992, min: 576 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 576, min: 0 },
+      items: 1
+    }
+  }
   return (
     <>
       <div id="portfolio" className="row justify-content-center m-4">
@@ -27,6 +48,25 @@ const Portfolio = () => {
           przeznaczonym do realizacji druków na komputerach osobistych, jak
           Aldus PageMaker.
         </p>
+        <Container>
+          <Carousel responsive={responsive} autoPlay autoPlaySpeed={2500} infinite removeArrowOnDeviceType={["tablet", "mobile"]} swipeable>
+            <img
+              className="d-block w-100 px-4"
+              src={OrtoPlusImgSrc}
+              alt="First slide"
+            />
+            <img
+              className="d-block w-100 px-4"
+              src={OxygenImgSrc}
+              alt="Second slide"
+            />
+            <img
+              className="d-block w-100 px-4"
+              src={FullCallImgSrc}
+              alt="Third slide"
+            />
+          </Carousel>
+        </Container>
       </section>
     </>
   )
