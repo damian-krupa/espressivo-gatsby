@@ -20,7 +20,7 @@ const Portfolio = () => {
     },
     mobile: {
       breakpoint: { max: 576, min: 0 },
-      items: 3
+      items: 2
     }
   }
   return (
