@@ -12,6 +12,7 @@ import LinkedInIcon from "assets/vector_images/linkedin.svg"
 import TumblrIcon from "assets/vector_images/tumblr.svg"
 import TikTokIcon from "assets/vector_images/tiktok.svg"
 import SearchIcon from "assets/vector_images/search.svg"
+import HamburgerToggle from "assets/vector_images/hamburger_toggle.svg"
 
 const TopBar = () => (
   <Navbar
@@ -26,7 +27,7 @@ const TopBar = () => (
       <Navbar.Brand className="navbar-brand abs">
         <img src={EspressivoLogo} alt="logo" />
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Toggle aria-controls="responsive-navbar-nav"><img src={HamburgerToggle} alt="navbar toggle" /></Navbar.Toggle>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="tel:578-983-972">

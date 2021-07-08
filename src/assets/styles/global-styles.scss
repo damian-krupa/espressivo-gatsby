@@ -32,13 +32,13 @@ body {
 }
 
 a {
-  color: $navbar-dark-color;
+  color: #E6E6E6;
 
   &:hover {
-    color: $navbar-dark-hover-color;
+    color: #fff;
   }
 
-  svg:hover {
+  img:hover {
     filter: brightness(115%);
   }
 }
