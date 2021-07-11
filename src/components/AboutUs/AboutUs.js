@@ -16,7 +16,7 @@ const AboutUs = () => {
           ESPRESSIVO z j. włoskiego wykonywać coś z uczuciem, wkładać w coś
           serce. W holistycznym marketingu patrzymy na markę i jej przekaz
           całościowo, nie pracujemy tylko nad jednym aspektem. Nasza perspektywa
-          jest nastawiona długofalowe korzyści. Jako specjaliści, najpierw
+          jest nastawiona na długofalowe korzyści. Jako specjaliści, najpierw
           diagnozujemy, a następnie doradzamy i działamy. Nie wypisujemy recept
           na życzenie, które wiemy, że nic nie pomogą, ponieważ bierzemy pełną
           odpowiedzialność za nasze działania. Jesteśmy zwolennikami budowania

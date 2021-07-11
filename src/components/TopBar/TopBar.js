@@ -9,7 +9,6 @@ import EmailIcon from "assets/vector_images/email.svg"
 import FacebookIcon from "assets/vector_images/fb.svg"
 import InstagramIcon from "assets/vector_images/instagram.svg"
 import LinkedInIcon from "assets/vector_images/linkedin.svg"
-import TumblrIcon from "assets/vector_images/tumblr.svg"
 import TikTokIcon from "assets/vector_images/tiktok.svg"
 import SearchIcon from "assets/vector_images/search.svg"
 import HamburgerToggle from "assets/vector_images/hamburger_toggle.svg"
@@ -57,9 +56,6 @@ const TopBar = () => (
             target="_blank"
           >
             <img src={LinkedInIcon} alt="linkedIn" />
-          </Nav.Link>
-          <Nav.Link href="https://espressivo-poems.tumblr.com" target="_blank">
-            <img src={TumblrIcon} alt="tumblr" />
           </Nav.Link>
           <Nav.Link href="https://vm.tiktok.com/ZMJEbFFfH/" target="_blank">
             <img src={TikTokIcon} alt="tiktok" />
