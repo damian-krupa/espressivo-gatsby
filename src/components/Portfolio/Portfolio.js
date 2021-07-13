@@ -6,22 +6,22 @@ import OxygenImgSrc from "assets/vector_images/oxygen.svg"
 import FullCallImgSrc from "assets/vector_images/fullcall.svg"
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css"
-import  "./portfolio.scss"
+import "./portfolio.scss"
 
 const Portfolio = () => {
   const responsive = {
     desktop: {
       breakpoint: { max: 4000, min: 992 },
-      items: 3
+      items: 3,
     },
     tablet: {
       breakpoint: { max: 992, min: 576 },
-      items: 3
+      items: 3,
     },
     mobile: {
       breakpoint: { max: 576, min: 0 },
-      items: 2
-    }
+      items: 2,
+    },
   }
   return (
     <>
@@ -49,7 +49,14 @@ const Portfolio = () => {
           Aldus PageMaker.
         </p>
         <Container>
-          <Carousel responsive={responsive} autoPlay autoPlaySpeed={2500} infinite removeArrowOnDeviceType={["tablet", "mobile"]} swipeable>
+          <Carousel
+            responsive={responsive}
+            autoPlay
+            autoPlaySpeed={2500}
+            infinite
+            removeArrowOnDeviceType={["tablet", "mobile"]}
+            swipeable
+          >
             <img
               className="d-block w-100 px-4"
               src={OrtoPlusImgSrc}

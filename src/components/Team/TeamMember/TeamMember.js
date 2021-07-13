@@ -10,7 +10,7 @@ const TeamMember = ({ photo, name, jobDescription, onClick }) => {
       role="button"
       tabIndex="0"
     >
-      <GatsbyImage image={photo} alt="team member"/>
+      <GatsbyImage image={photo} alt="team member" />
       <h5>{name}</h5>
       <h6>{jobDescription}</h6>
     </div>

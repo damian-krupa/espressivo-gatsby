@@ -8,7 +8,7 @@ import Footer from "../components/Footer/Footer"
 const MainLayout = ({ children }) => {
   return (
     <div className="layout">
-      <div id="top"/>
+      <div id="top" />
       <TopBar />
       <Navigation />
       <Container>{children}</Container>

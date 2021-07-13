@@ -26,7 +26,9 @@ const TopBar = () => (
       <Navbar.Brand className="navbar-brand abs">
         <img src={EspressivoLogo} alt="logo" />
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav"><img src={HamburgerToggle} alt="navbar toggle" /></Navbar.Toggle>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav">
+        <img src={HamburgerToggle} alt="navbar toggle" />
+      </Navbar.Toggle>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link href="tel:578-983-972">
