@@ -19,9 +19,9 @@ const Footer = () => {
               <img src={PhoneIcon} alt="telefon" />
               <span className="ml-1 text-nowrap">+48 578 983 972</span>
             </a>
-            <a className="d-block mb-4" href="mailto:holi@espressivo.pl">
+            <a className="d-block mb-4" href="mailto:holi@espressivomarketing.pl">
               <img src={EmailIcon} alt="email" />
-              <span className="ml-1">holi@espressivo.pl</span>
+              <span className="ml-1">holi@espressivomarketing.pl</span>
             </a>
           </div>
           <div className="working-hours col-6 col-md-5 col-lg-4 mt-5 text-center">
