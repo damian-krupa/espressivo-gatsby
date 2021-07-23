@@ -7,11 +7,11 @@
 // You can delete this file if you're not using it
 
 exports.onInitialClientRender = () => {
-  localStorage.setItem("fcWebHash", "004e7dcdf427d3fe5357686a01ac212cb56c49c7601dd236fe5e462122b87c37");
+  localStorage.setItem("fcWebHash", "e3b6dacd3da8b5336a86f1b3bd81447debf5f7946372e2fca27fe10f722618c9");
   const fc = document.createElement('script');
   fc.type="text/javascript";
   fc.async=true;
-  fc.src = "https://app.fullcall.com/api/static/core/004e7dcdf427d3fe5357686a01ac212cb56c49c7601dd236fe5e462122b87c37";
+  fc.src = "https://app.fullcall.com/api/static/core/e3b6dacd3da8b5336a86f1b3bd81447debf5f7946372e2fca27fe10f722618c9";
   const s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(fc,s);
 }
