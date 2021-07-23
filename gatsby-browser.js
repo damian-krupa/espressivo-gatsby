@@ -5,7 +5,6 @@
  */
 
 // You can delete this file if you're not using it
-const React = require("react")
 
 exports.onInitialClientRender = () => {
   localStorage.setItem("fcWebHash", "004e7dcdf427d3fe5357686a01ac212cb56c49c7601dd236fe5e462122b87c37");
