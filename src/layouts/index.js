@@ -6,7 +6,6 @@ import Navigation from "components/Navigation/Navigation"
 import Footer from "../components/Footer/Footer"
 
 const MainLayout = ({ children }) => {
-  localStorage.setItem("fcWebHash", "004e7dcdf427d3fe5357686a01ac212cb56c49c7601dd236fe5e462122b87c37");
   return (
     <div className="layout">
       <div id="top" />
