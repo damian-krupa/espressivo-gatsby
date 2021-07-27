@@ -1,5 +1,6 @@
 import React from "react"
 import { GatsbyImage } from "gatsby-plugin-image"
+import './team-member.scss'
 
 const TeamMember = ({ photo, name, jobDescription, onClick }) => {
   return (
@@ -11,7 +12,7 @@ const TeamMember = ({ photo, name, jobDescription, onClick }) => {
       tabIndex="0"
     >
       <GatsbyImage image={photo} alt="team member" />
-      <h5>{name}</h5>
+      <h5 className="team-member__name">{name}</h5>
       <h6>{jobDescription}</h6>
     </div>
   )

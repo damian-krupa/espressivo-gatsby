@@ -9,7 +9,7 @@ const Footer = () => {
     <section className="footer">
       <Container>
         <footer id="kontakt" className="row justify-content-around">
-          <div className="contact-us col-6 col-md-5 col-lg-4 mt-5">
+          <div className="footer__contact-us col-6 col-md-5 col-lg-4 mt-5">
             <p>Skontaktuj się z nami, jeśli wierzysz, że</p>
             <p className="gold-text-decoration">
               <strong>HOLISTYCZNA WSPÓŁPRACA</strong>
@@ -19,12 +19,12 @@ const Footer = () => {
               <img src={PhoneIcon} alt="telefon" />
               <span className="ml-1 text-nowrap">+48 578 983 972</span>
             </a>
-            <a className="d-block mb-4" href="mailto:holi@espressivomarketing.pl">
+            <a className="footer__mail d-block mb-4" href="mailto:holi@espressivomarketing.pl">
               <img src={EmailIcon} alt="email" />
               <span className="ml-1">holi@espressivomarketing.pl</span>
             </a>
           </div>
-          <div className="working-hours col-6 col-md-5 col-lg-4 mt-5 text-center">
+          <div className="footer__working-hours col-6 col-md-5 col-lg-4 mt-5 text-center">
             <h5 className="mb-3">
               <b>GODZINY OTWARCIA</b>
             </h5>
@@ -36,8 +36,8 @@ const Footer = () => {
             </div>
           </div>
         </footer>
-        <small className="row justify-content-center small-print pb-2">
-          Designed by us with <span className="gold-text">&nbsp;joy</span>
+        <small className="footer__small-print row justify-content-center pb-2">
+          Designed by us with <span className="footer--gold-text">&nbsp;joy</span>
         </small>
       </Container>
     </section>

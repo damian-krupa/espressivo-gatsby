@@ -35,9 +35,9 @@ const TopBar = () => (
             <img src={PhoneIcon} alt="telefon" />
             <span className="nav-link-text">+48 578 983 972</span>
           </Nav.Link>
-          <Nav.Link href="mailto:holi@espressivo.pl">
+          <Nav.Link href="mailto:holi@espressivomarketing.pl">
             <img src={EmailIcon} alt="email" />
-            <span className="nav-link-text">holi@espressivo.pl</span>
+            <span className="nav-link-text">holi@espressivomarketing.pl</span>
           </Nav.Link>
         </Nav>
         <Nav>

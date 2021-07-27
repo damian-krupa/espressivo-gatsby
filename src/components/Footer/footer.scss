@@ -2,32 +2,37 @@
 
 .footer {
   background-color: #000;
-}
 
-.contact-us {
-  p {
-    margin-bottom: 0
+  &__contact-us {
+    p {
+      margin-bottom: 0
+    }
+
+    strong {
+      font-weight: 700;
+      @include goldBackground
+    }
   }
 
-  strong {
-    font-weight: 700;
+  &__mail {
+    white-space: nowrap;
+  }
+
+  &__working-hours {
+    p {
+      margin-bottom: 0;
+    }
+    h5 {
+      @include clearGoldBackground
+    }
+  }
+
+  &__small-print {
+    font-weight: 300;
+  }
+
+  &--gold-text {
+    font-weight: 500;
     @include goldBackground
   }
-}
-
-.working-hours {
-  p {
-    margin-bottom: 0;
-  }
-  h5 {
-    @include clearGoldBackground
-  }
-}
-
-.small-print {
-  font-weight: 300;
-}
-
-.gold-text {
-  @include goldBackground
 }
