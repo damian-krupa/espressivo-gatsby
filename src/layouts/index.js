@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap"
 import Navigation from "components/Navigation/Navigation"
 import Footer from "../components/Footer/Footer"
 import { Helmet } from "react-helmet"
-import CookieConsent from "react-cookie-consent"
+import CookieConsentBanner from "../components/CookieConsentBanner/CookieConsentBanner"
 
 const MainLayout = ({ children }) => {
   return (
@@ -20,16 +20,7 @@ const MainLayout = ({ children }) => {
       <Navigation />
       <Container>{children}</Container>
       <Footer />
-      <CookieConsent
-        style={{ fontSize: "0.7rem", padding: "0 7rem" }}
-        buttonClasses="btn btn-primary"
-        buttonText="Zgoda"
-        contentStyle={{ flex: "1 0" }}
-      >
-        Ta strona korzysta z ciasteczek aby świadczyć usługi na najwyższym
-        poziomie. Dalsze korzystanie ze strony oznacza, że zgadzasz się na ich
-        użycie.
-      </CookieConsent>
+      <CookieConsentBanner />
     </div>
   )
 }
