@@ -19,7 +19,10 @@ const Footer = () => {
               <img src={PhoneIcon} alt="telefon" />
               <span className="ml-1 text-nowrap">+48 578 983 972</span>
             </a>
-            <a className="footer__mail d-block mb-4" href="mailto:holi@espressivomarketing.pl">
+            <a
+              className="footer__mail d-block mb-4"
+              href="mailto:holi@espressivomarketing.pl"
+            >
               <img src={EmailIcon} alt="email" />
               <span className="ml-1">holi@espressivomarketing.pl</span>
             </a>
@@ -37,7 +40,8 @@ const Footer = () => {
           </div>
         </footer>
         <small className="footer__small-print row justify-content-center pb-2">
-          Designed by us with <span className="footer--gold-text">&nbsp;joy</span>
+          Designed by us with{" "}
+          <span className="footer--gold-text">&nbsp;joy</span>
         </small>
       </Container>
     </section>

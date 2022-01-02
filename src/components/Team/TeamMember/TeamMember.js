@@ -1,6 +1,6 @@
 import React from "react"
 import { GatsbyImage } from "gatsby-plugin-image"
-import './team-member.scss'
+import "./team-member.scss"
 
 const TeamMember = ({ photo, name, jobDescription, onClick }) => {
   return (
