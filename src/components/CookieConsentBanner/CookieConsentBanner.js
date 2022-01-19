@@ -9,7 +9,7 @@ const CookieConsentBanner = () => {
       buttonText="Zgoda"
       contentStyle={{ flex: "1 0" }}
     >
-      Ta strona korzysta z ciasteczek aby świadczyć usługi na najwyższym
+      Ta strona korzysta z ciasteczek, aby świadczyć usługi na najwyższym
       poziomie. Dalsze korzystanie ze strony oznacza, że zgadzasz się na ich
       użycie.
     </CookieConsent>
