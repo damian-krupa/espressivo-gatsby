@@ -10,7 +10,6 @@ import FacebookIcon from "assets/vector_images/fb.svg"
 import InstagramIcon from "assets/vector_images/instagram.svg"
 import LinkedInIcon from "assets/vector_images/linkedin.svg"
 import TikTokIcon from "assets/vector_images/tiktok.svg"
-import SearchIcon from "assets/vector_images/search.svg"
 import HamburgerToggle from "assets/vector_images/hamburger_toggle.svg"
 
 const TopBar = () => (
@@ -61,9 +60,6 @@ const TopBar = () => (
           </Nav.Link>
           <Nav.Link href="https://vm.tiktok.com/ZMJEbFFfH/" target="_blank">
             <img src={TikTokIcon} alt="tiktok" />
-          </Nav.Link>
-          <Nav.Link href="#search">
-            <img src={SearchIcon} alt="search" />
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
