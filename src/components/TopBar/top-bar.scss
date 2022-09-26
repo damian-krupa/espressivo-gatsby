@@ -14,6 +14,13 @@
   margin-left: 0.5rem;
 }
 
+.nav-mobile-text {
+  margin-left: 0.5rem;
+  @media (min-width: 990px) {
+    display: none;
+  }
+}
+
 @media (min-width: 990px) {
   .navbar-brand.abs {
     position: absolute;

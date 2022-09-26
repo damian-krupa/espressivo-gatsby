@@ -45,21 +45,25 @@ const TopBar = () => (
             target="_blank"
           >
             <img src={FacebookIcon} alt="facebook" />
+            <span className="nav-mobile-text">Facebook</span>
           </Nav.Link>
           <Nav.Link
             href="https://www.instagram.com/espressivo.marketing"
             target="_blank"
           >
             <img src={InstagramIcon} alt="instagram" />
+            <span className="nav-mobile-text">Instagram</span>
           </Nav.Link>
           <Nav.Link
             href="https://www.linkedin.com/company/espressivomarketing"
             target="_blank"
           >
             <img src={LinkedInIcon} alt="linkedIn" />
+            <span className="nav-mobile-text">LinkedIn</span>
           </Nav.Link>
           <Nav.Link href="https://vm.tiktok.com/ZMJEbFFfH/" target="_blank">
             <img src={TikTokIcon} alt="tiktok" />
+            <span className="nav-mobile-text">TikTok</span>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
